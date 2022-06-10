@@ -5,7 +5,7 @@ import React from 'react';
 import "./AboutMe.css"
 const AboutMe = () => {
     return (
-        <div style={{ color: "white", textAlign: "center" }} >
+        <div style={{ color: "white", textAlign: "center" }} id="about">
             <h1 className="fw-bold nameIntro" >Who  I am? <span className='myName'>Sabbir Alam</span></h1>
             <h5>I'M A PASSIONATE WEB DEVELOPER</h5>
             <div className="d-flex gap-3 justify-content-center">
@@ -21,7 +21,9 @@ const AboutMe = () => {
             </div>
             <div className='responsive-width mx-auto my-4'>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nobis eveniet explicabo unde quod possimus dolore error est ipsum, vel cum aspernatur quisquam tenetur vitae dolorem eos nihil! Vero, saepe?
+                   Passionate about web development.Curious about learning new technology.Trying to acquire more knowledge.I know the value of time.So trying to utilize the time.
+                 <p className='mt-4'><blockquote>Stay Hungry, Stay Foolish</blockquote> </p> 
+                   <cite>Steve jobs</cite>
                 </p>
             </div>
             <div className='row row-cols-1 row-cols-md-3 container mx-auto' >

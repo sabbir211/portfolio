@@ -12,3 +12,14 @@
     margin-top: -10px;  
     color: white;
 }
+
+@media screen and (min-width:600px) {
+    .formContainer{
+        width: 50%;
+    }
+}
+@media screen and (max-width:600px) {
+    .formContainer{
+        width: 100%;
+    }
+}

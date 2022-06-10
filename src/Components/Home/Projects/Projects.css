@@ -1,0 +1,10 @@
+.projectImg{
+    height: 200px;
+    cursor: pointer;
+}
+
+.projects-text{
+    -webkit-text-stroke: 1px rgb(248, 209, 219);
+    -webkit-text-fill-color: transparent;
+}
+  

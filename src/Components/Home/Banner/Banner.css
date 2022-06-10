@@ -6,7 +6,7 @@
 .text{
     -webkit-text-stroke:1px rgb(238, 230, 230);
     -webkit-text-fill-color:transparent;
-    font-size:4rem;
+    
   }
 .for-bg{
     background: rgba(12, 8, 80, 0.692);
@@ -31,6 +31,9 @@
         z-index: auto;
         width: 100%;
       }
+      .text{
+        font-size:2rem;
+      }
   }
   @media screen and (min-width:600px) {
       .banner-bg{
@@ -40,5 +43,8 @@
         margin-top: -6rem;
         z-index: auto;
         width: 50%;
+      }
+      .text{
+        font-size:4rem;
       }
   }

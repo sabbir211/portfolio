@@ -18,13 +18,14 @@ const Contact = () => {
 
 };
     return (
-        <div className="my-5 " id='contact'>
+        <div className="m-4 " id='contact'>
             <h1 className='contactHead text-center'>CONTACT <span>MESSAGE</span> </h1>
-            <div className='w-50 text-center  mx-auto'>
+            <div className='text-center  mx-auto formContainer'>
                 <form ref={form} onSubmit={handleSubmit}>
-                    
-                    <input name="name"   type="text" placeholder='Name' className='inputField rounded-pill py-1 mx-2  px-3 ' id='name'/>
-                    <input name="email"  type="text" placeholder='Email ' className='inputField rounded-pill py-1 mx-2 px-3' id='Email'/>
+                    <div className="d-flex flex-column flex-md-row justify-content-center">
+                    <input name="name"   type="text" placeholder='Name' className='inputField   my-3 rounded-pill py-1 mx-2  px-3 ' id='name'/>
+                    <input name="email"  type="text" placeholder='Email ' className='inputField my-3 rounded-pill py-1 mx-2 px-3' id='Email'/>
+                    </div>
                     <textarea name="message"  class="inputField d-block w-100 my-5 rounded" rows="5" placeholder="Message" id="floatingTextarea"></textarea>
                     <input type="submit" value="Send" className='btn btn-outline-primary px-5' />
 
