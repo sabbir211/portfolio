@@ -1,0 +1,29 @@
+.myName{
+    -webkit-text-stroke:1px rgb(238, 230, 230);
+    -webkit-text-fill-color:transparent;
+   font-weight: 800;
+}
+.nameIntro{
+    font-size: 4rem;
+    
+}
+.aboutDetails{
+    border: 1px solid rebeccapurple;
+    margin: 2rem;
+    
+}
+.detailsIcons{
+    color: #0a6dd1;
+    margin-top: -30px;
+    background: rgb(230, 235, 234);
+}
+@media screen and (max-width:600px) {
+ .responsive-width{
+     width: 100%;
+ }   
+}
+@media screen and (min-width:600px) {
+ .responsive-width{
+     width: 50%;
+ }   
+}

@@ -1,0 +1,14 @@
+.contactHead{
+    color: white;
+    margin-bottom: 4rem;
+}
+.contactHead span{
+    -webkit-text-stroke: 1px rgb(228, 24, 160);
+    -webkit-text-fill-color: transparent;
+}
+.inputField{
+    background-color: transparent;
+    border: 1px solid rgb(228, 24, 160);
+    margin-top: -10px;  
+    color: white;
+}

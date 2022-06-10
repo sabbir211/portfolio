@@ -1,0 +1,44 @@
+.banner-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.text{
+    -webkit-text-stroke:1px rgb(238, 230, 230);
+    -webkit-text-fill-color:transparent;
+    font-size:4rem;
+  }
+.for-bg{
+    background: rgba(12, 8, 80, 0.692);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+
+}
+.banner-text{
+    z-index: 1;
+}
+.my-pic{
+ 
+}
+  @media screen and (max-width:600px) {
+      .banner-bg{
+          min-height: 50vh;
+      }
+      .my-pic{
+        margin-top: -4rem;
+        z-index: auto;
+        width: 100%;
+      }
+  }
+  @media screen and (min-width:600px) {
+      .banner-bg{
+          min-height: 100vh;
+      }
+      .my-pic{
+        margin-top: -6rem;
+        z-index: auto;
+        width: 50%;
+      }
+  }
