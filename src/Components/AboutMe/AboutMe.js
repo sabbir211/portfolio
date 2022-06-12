@@ -12,10 +12,10 @@ const AboutMe = () => {
                 <a href="https://www.facebook.com/sabbir1144" target="blank">
                     <FontAwesomeIcon icon={faFacebook} className="fs-3 btn btn-outline-primary rounded rounded-circle p-2"></FontAwesomeIcon>
                 </a>
-                <a href="https://www.facebook.com/sabbir1144" target="blank">
+                <a href="https://github.com/sabbir211" target="blank">
                     <FontAwesomeIcon icon={faGithub} className="fs-3 btn btn-outline-primary rounded rounded-circle p-2"></FontAwesomeIcon>
                 </a>
-                <a href="https://www.facebook.com/sabbir1144" target="blank">
+                <a href="http://www.linkedin.com/in/sabbir-alam-694438234" target="blank">
                     <FontAwesomeIcon icon={faLinkedinIn} className="fs-3 btn btn-outline-primary rounded rounded-circle p-2"></FontAwesomeIcon>
                 </a>
             </div>
